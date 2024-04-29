@@ -1,0 +1,64 @@
+body
+{
+    background-color: #161514;
+}
+
+/*Image*/
+img
+{
+    width: 100%;
+    border-radius: 16px;
+}
+
+/*Text*/
+h1
+{
+    color: antiquewhite;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p
+{
+    color: antiquewhite;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Div*/
+.headDiv
+{
+    background-color: #000000;
+    width: auto;
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.biodataContainerDiv
+{
+    width: 1000px;
+    margin: 30px auto 30px auto;
+}
+
+.flex-container 
+{
+    display: flex;
+}
+
+.flex-child_img
+{
+    flex: 2;
+    border: 5px solid #ffffff;
+    border-radius: 16px;
+    margin-right: 35px;
+}  
+
+.flex-child_text
+{
+    flex: 2;
+    background-color: rgb(33, 37, 37);
+    border: 5px solid #ffffff;
+    border-radius: 16px;
+    padding: 10px;
+}
